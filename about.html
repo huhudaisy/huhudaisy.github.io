@@ -1,0 +1,148 @@
+---
+layout: page
+title: "About me"
+description: "Hello world, this is Yongwei Chen."
+header-img: "img/about-bg.jpg"
+---
+
+<!-- Language Selector -->
+<select onchange= "onLanChange(this.options[this.options.selectedIndex].value)">
+    <option value="0" > 中文 Chinese </option>
+    <option value="1" selected> 英语 English </option>
+</select>
+
+
+<!-- English Version -->
+<div class="en post-container">
+
+
+
+<h2>Introduction</h2>
+<p>My name is Yongwei Chen.</p>
+
+<h2>Personal information</h2>
+<ul>
+<li>Name: <strong>Yongwei Chen</strong></li>
+<li>Gender: Male</li>
+<li>Year of birth: 1995</li>
+<li>Nationality: the People’s Republic of <strong>China</strong></li>
+<li>Address:  <strong>Peking University</strong>  ,
+No.5 Yiheyuan Road Haidian District, Beijing, P.R.China</li>
+<li>Email: <a href="mailto:cyongwei@pku.edu.cn">cyongwei@pku.edu.cn</a></li>
+<li>Phone: 86 13511098699</li>
+</ul>
+<h2>Education</h2>
+<p><a href="https://www.pku.edu.cn/">Peking University</a> (Rank <strong>22</strong> in <a href="https://www.topuniversities.com/">QS</a>),	Sep. 2017 – Jun. 2020 (Expected)</p>
+<ul>
+<li>Master of Engineering in Engineering of Integrated   Circuit candidate</li>
+<li>Research Area: Computer Vision</li>
+<li>GPA: 3.44/4(86/100)</li>
+</ul>
+<p><a href="http://www.hebut.edu.cn/">Hebei University of Technology</a>, 	Sep. 2013 – Jun. 2017</p>
+<ul>
+<li>Bachelor of Engineering in Electronic Science and Technology.</li>
+<li>Excellent Graduation Design, Outstanding Graduates</li>
+<li>GPA: 3.64/4(91/100)</li>
+</ul>
+<h2>Honors &amp; Awards</h2>
+<ul>
+<li>Award for Academic Excellents in Peking University. Dec.2018</li>
+<li>National Encouragement Scholarship. 2016</li>
+<li>Merit Student of Hebei University of Technology. 2014,2016</li>
+<li>The First Prize Scholarship of Hebei University of Technology. 2016</li>
+<li>The third Prize of Tianjin Physics Competition. 2015</li>
+<li>The second Prize of Mathematics competition of Chinese College Student. 2014</li>
+</ul>
+
+
+
+
+
+</div>
+
+
+<!-- Chinese Version -->
+<div class="zh post-container">
+   还没建设！
+</div>
+
+
+<!-- Handle Language Change -->
+<script type="text/javascript">
+    var $zh = document.querySelector(".zh");
+    var $en = document.querySelector(".en");
+    function onLanChange(index){
+        if(index == 0){
+            $zh.style.display = "block";
+            $en.style.display = "none";
+        }else{
+            $en.style.display = "block";
+            $zh.style.display = "none";
+        }
+    }
+    onLanChange(1);
+</script>
+
+
+
+<!-- {% if site.duoshuo_username %} -->
+<!-- 多说评论框 start -->
+<!-- <div class="comment">
+    <div class="ds-thread"
+    {% if site.duoshuo_username == "wittblog" %}
+        data-thread-id="1187623191091085319"
+    {% else %}
+        data-thread-key="{{site.duoshuo_username}}/about"
+    {% endif %}
+
+    data-title="{{page.title}}"
+    data-url="{{site.url}}/about/"></div>
+</div> -->
+<!-- 多说评论框 end -->
+
+<!-- Duoshuo hacking -->
+<!-- <input id="dsUser" type="hidden" value="{{site.duoshuo_username}}"  /> -->
+
+<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+<!-- <script type="text/javascript">
+    // dynamic User hacking by Witt
+    var _user = document.getElementById('dsUser').value;
+    // duoshuo comment query.
+    var duoshuoQuery = {short_name: _user };
+    (function() {
+        var ds = document.createElement('script');
+        ds.type = 'text/javascript';ds.async = true;
+        ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+        ds.charset = 'UTF-8';
+        (document.getElementsByTagName('head')[0]
+         || document.getElementsByTagName('body')[0]).appendChild(ds);
+    })();
+</script> -->
+<!-- 多说公共JS代码 end -->
+<!-- {% endif %}
+
+
+{% if site.disqus_username %} -->
+<!-- disqus 评论框 start -->
+<!-- <div class="comment">
+    <div id="disqus_thread" class="disqus-thread">
+
+    </div>
+</div> -->
+<!-- disqus 评论框 end -->
+
+<!-- disqus 公共JS代码 start (一个网页只需插入一次) -->
+<!-- <script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES * * */
+    var disqus_shortname = "{{site.disqus_username}}";
+    var disqus_identifier = "{{site.disqus_username}}/{{page.url}}";
+    var disqus_url = "{{site.url}}{{page.url}}";
+
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script> -->
+<!-- disqus 公共JS代码 end -->
+<!-- {% endif %} -->
