@@ -2,7 +2,7 @@
 
 ##### Hello world, this is huhudaisy. The blog is still being constructed.
 
-## View
+## View Blog
 
 #### [View Live huhudaisy Blog ](https://huhudaisy.github.io/)
 
