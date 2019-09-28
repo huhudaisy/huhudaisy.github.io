@@ -10,16 +10,16 @@ tags:
     - Undergraduate
 ---
 
-## Contemporary Undergraduate Mathematical Contest in Modeling.2016
+## Contemporary Undergraduate Mathematical Contest in Modeling.2015
 
 **The national second prize**
 
-Designing the mooring system of the vessel and build a mathematical model.
+Designing the mooring system of the vessel and build a mathematical model by Matlab.
 ![](/img/in-post/other-projects-in-undergraduate/数学建模.jpg)
 
-## Graduation project
-
-Smart home can improve people's life quality in the home; the home gateway is the control and management center of the smart home. In order to resolve the differences in the protocols used by different vendors, the poor compatibility of the equipment and heterogeneous network problems, This paper uses the middleware technology to connect a variety of devices in smart home and puts forward the design of smart home gateway based on openHAB.The system uses raspberry 3B and Linux to build an embedded system platform. This paper completed the binding and configuration of WiFi, Bluetooth, weather and other functional components, writing home automation control rules and a variety of terminal user interface, using the RRD database to record environment parameters, using motion software to achieve camera video monitoring ,using openHAB cloud services to realize remote login.According to the test, the system can effectively support multiple protocols .The functions of remote login,  the database, and video cameras monitoring are normal.
-
-Our physical objects are as follows, including Raspberry Pi, display, and IoT devices.
-![](/img/in-post/other-projects-in-undergraduate/家庭网关.jpg)
+## Graduation project —— Research on the catalytic type methane gas sensors based on CeO<sub>2</sub> supported Pd
+A series of CeO<sub>2</sub> supported Pd catalysts were prepared by co-precipitation method, and the effects Pd amount on catalytic efficiency and stability of methane were investigated. The microstructures of the catalysts were characterized by XRD,TPR and SEM，and the catalytic mechanism of Pd/CeO<sub>2</sub> was proposed. There were two kinds of methane active sites on the surface of Pd/CeO<sub>2</sub>:Ce<sub>1-x</sub>Pd<sub>x</sub>O<sub>2-δ</sub> and PdO. A part of Pd was present in the form of highly dispersed surface PdO, and the other part of Pd<sup>2+</sup> was doped into CeO<sub>2</sub> unit to form Ce<sub>1-x</sub>Pd<sub>x</sub>O<sub>2-δ</sub> solid solution. The higher the activity of Ce<sub>1-x</sub>Pd<sub>x</sub>O<sub>2-δ</sub>, the better the catalytic efficiency at low temperature, the higher the Pd loading, the better stability at high temperature. Catalytic methane gas sensors were fabricated based on Pd/CeO<sub>2</sub> catalysts, and the sensor response and stability were studied.
+![](/img/in-post/other-projects-in-undergraduate/传感器.png)
+The photo of a methane sensor
+![](/img/in-post/other-projects-in-undergraduate/SEM.jpg)
+A SEM result of methane sensor

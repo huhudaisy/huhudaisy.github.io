@@ -1,10 +1,10 @@
-# Site settings
-title: Yongwei's World
-SEOTitle: yongw的博客 | Yongwei chen Blog
+huaqt# Site settings
+title: huaqt's World
+SEOTitle: hua qianting的博客 | qianting hua Blog
 header-img: img/home-bg.jpg
-email: cyongwei@pku.edu.cn
-description: "yongwei| Working with you to build a beautiful world"
-keyword: "勇维,yongwei"
+email: huaqt@pku.edu.cn
+description: "qianting| Working with you to build a beautiful world"
+keyword: "倩婷,qianting"
 url: "https://huhudaisy.github.io/"         # my host, for absolute URL
 baseurl: ""         						# for example, '/blog' if your blog hosted on 'host/blog'
 
@@ -88,8 +88,8 @@ port: 5001
 # Friends
 # friends: [
     # {
-        # title: "yongw Blog",
-        # href: "https://cyongwei.github.io"
+        # title: " Blog",
+        # href: "https://cqianting.github.io"
     # },{
         # title: "Foo",
         # href: "#"

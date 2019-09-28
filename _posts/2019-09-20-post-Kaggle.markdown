@@ -1,10 +1,9 @@
 ---
 layout:     post
-title:      "Kaggle contests"
-subtitle:   "One Silver medal"
+title:      "Realization of Russian Tetris Game Based on FPGA "
 date:       2019.09.05
-author:     "yongwei"
-header-img: "img/in-post/tag-bg.jpg"
+author:     "qianting"
+header-img: "img/in-post/Tetris/tag-bg.jpg"
 catalog: True
 tags:
     - Postgraduate
