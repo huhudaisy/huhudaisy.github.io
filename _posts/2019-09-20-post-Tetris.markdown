@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "Realization of the Tetris Game Based on FPGA "
+title:      " Tetris Game Based on FPGA "
 date:       2019.09.05
 author:     "qianting"
 header-img: "img/in-post/Tetris/tag-bp.jpg"
@@ -10,7 +10,7 @@ tags:
 ---
 
 
-## Realization of the Tetris Game Based on FPGA. 2018
+## Tetris Game Based on FPGA. 2018
 
 Tetris game is a popular game in the world. Its basic rule is to rotate, move, drop and place all kinds of squares which are automatically output by the game, so that it can be arranged into a complete row or rows and eliminate the score. This design was based on the FPGA development board and was implemented in the VHDL hardware design language with a focus on modular design.
 
