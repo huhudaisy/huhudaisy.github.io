@@ -3,7 +3,7 @@ layout:     post
 title:      "Curriculum Vitae "
 date:       2019.09.21
 author:     "qianting"
-header-img: "img/in-post/Tetris/tag-bp.jpg"
+header-img: "img/about-bg.jpg"
 catalog: True
 tags:
     - Postgraduate
@@ -12,4 +12,4 @@ tags:
 
 ## Curriculum Vitae
 
-![](/img/in-post/CV.png)
+![](/img/CV.png)
