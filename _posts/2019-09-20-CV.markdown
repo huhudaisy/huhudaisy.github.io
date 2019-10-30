@@ -1,0 +1,15 @@
+---
+layout:     post
+title:      "Curriculum Vitae "
+date:       2019.09.21
+author:     "qianting"
+header-img: "img/in-post/Tetris/tag-bp.jpg"
+catalog: True
+tags:
+    - Postgraduate
+---
+
+
+## Curriculum Vitae
+
+![](/img/in-post/CV.png)
