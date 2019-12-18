@@ -1,6 +1,7 @@
 
 ## Introduction
-我叫华倩婷
+Graduated from major of Electronic Science and Technology, Hebei university of technology in June 2017 as a Bachelor, I have got an extensive and intensive education with a final GPA of 3.93/4.0. Due to my excellent academic performance, I was exempted from taking Entrance Exam and accepted as a master student majoring in Integrated Circuits Design at Peking University. I am proficient in programming with MATLAB、Verilog HDL，also good at circuit design through  Virtuoso.
+
 
 ## Personal information
 
@@ -36,3 +37,37 @@ No.5 Yiheyuan Road Haidian District, Beijing, P.R.China
 ![](/img/大学成绩单.bmp)
 * Postgraduate (eg. Digital Integrated Circuits Analysis and Design, VLSI Test and Design for Testability,Introduction of Microelectronics, Power Intergrated circuit).
 ![](/img/北大成绩单.jpg)
+
+----
+
+##  A 56 Gb/s Parallel Link PAM4 Transceiver. July. 2018 –July. 2019
+![](/img/in-post/transceiver/1.png)
+![](/img/in-post/transceiver/trend.bmp)
+![](/img/in-post/transceiver/2.png)
+![](/img/in-post/transceiver/eyediagram.jpg)
+
+---
+
+## An IC Design of Traffic Light Controller. 2017
+
+This project was the term project for the course <<CMOS VLSI design>>, Prof.Yue-Kai Lo was our advising professor. This chip design project was based on SMIC 0.18um CMOS process design flow and EDA tools. And its main function was to control the display of traffic signal LED lights and the LED digital display.
+
+This embedded Flash RAM Controller within FPGA  was controlled by a PC-Based system to download the digital function (HDL Verilog codes stored in FLASH RAM Memory) through an UART interface module, to modify its timing settings upon power-on-reset and downloading modes.
+
+On our VLSI design project, we have covered all the phases of the Controller Chip Design, which included Specification Definition, Algorithm and Architural HDL Design, Verilog function Design with FPGA Verification and Validation Flows in the VLSI front-end design and physical layout backend design. These design procedures of the VLSI controller chip were including system design using C-Language; RTL-HDL programs using Verilog; Test-Vector generation of the testbench; Simulation using ModelSim; Emulation on an Altera FPGA function boards; Netlist was synthesized using Synopsys DC Compiler and SMIC PDK and Stand-Cell, Mixed-Signal IP Libraries; Logic gate and transistor levels of veriifcation with DFT, Automatic Pacement and Routing (APR) using Synopsys APR EDA Tools/Flows to generate the physical layout of the netlist with 0.18 uM Standard-Cell Library and IP Modules, till the final GDS2 of the XY-Mask Data for generating the photo mask levels to fabricate the VLSI chip.
+
+* IC design process
+![](/img/in-post/Traffic-light/ic-design.jpg)
+* Realization by FPGA
+![](/img/in-post/Traffic-light/fgpa.gif)
+* The layout of traffic lights
+![](/img/in-post/Traffic-light/layout.jpg)
+
+---
+
+## Graduation project —— Research on the catalytic type methane gas sensors based on CeO<sub>2</sub> supported Pd
+A series of CeO<sub>2</sub> supported Pd catalysts were prepared by co-precipitation method, and the effects Pd amount on catalytic efficiency and stability of methane were investigated. The microstructures of the catalysts were characterized by XRD,TPR and SEM，and the catalytic mechanism of Pd/CeO<sub>2</sub> was proposed. There were two kinds of methane active sites on the surface of Pd/CeO<sub>2</sub>:Ce<sub>1-x</sub>Pd<sub>x</sub>O<sub>2-δ</sub> and PdO. A part of Pd was present in the form of highly dispersed surface PdO, and the other part of Pd<sup>2+</sup> was doped into CeO<sub>2</sub> unit to form Ce<sub>1-x</sub>Pd<sub>x</sub>O<sub>2-δ</sub> solid solution. The higher the activity of Ce<sub>1-x</sub>Pd<sub>x</sub>O<sub>2-δ</sub>, the better the catalytic efficiency at low temperature, the higher the Pd loading, the better stability at high temperature. Catalytic methane gas sensors were fabricated based on Pd/CeO<sub>2</sub> catalysts, and the sensor response and stability were studied.
+![](/img/in-post/other-projects-in-undergraduate/传感器.png)
+A photo of a methane sensor
+![](/img/in-post/other-projects-in-undergraduate/SEM.jpg)
+A SEM result of methane sensor
